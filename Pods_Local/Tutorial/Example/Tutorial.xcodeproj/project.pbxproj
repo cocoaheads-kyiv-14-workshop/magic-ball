@@ -270,12 +270,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Tutorial_Example/Pods-Tutorial_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RandomGenerator/RandomGenerator.framework",
 				"${BUILT_PRODUCTS_DIR}/Tutorial/Tutorial.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RandomGenerator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tutorial.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
