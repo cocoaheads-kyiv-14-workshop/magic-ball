@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		3A1215E87E9AF09913D7A18132FFD7E3 /* Pods-RandomGenerator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF237506BEA3A1603F4787DD0FF4F2F1 /* Pods-RandomGenerator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47BE16CE88B74B1C07174F9CFF8EAED2 /* RandomGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED117202A1FAE7A05224A17B6EC39B0C /* RandomGenerator-dummy.m */; };
 		5214DE799581710491B721BE8B067A32 /* Pods-RandomGenerator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F5D7DBAA303926B48090339A830DD90 /* Pods-RandomGenerator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5216EACD950A18DD5D4F458B4907AE4D /* RandomGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1535515F8864534DC562634C6C93EE /* RandomGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5216EACD950A18DD5D4F458B4907AE4D /* RandomGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 837EC089ABB8235D1D20045B49443ED1 /* RandomGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79A18D857956213418BDCEBBF4B150EF /* Pods-RandomGenerator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B0F7C1133B15B384A87D545A4A84C /* Pods-RandomGenerator_Example-dummy.m */; };
-		7EFEB5C9D5B3752F7762E8874B8A6538 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E909A942E238B3320ADBFDBC2E0B6FB8 /* ReplaceMe.swift */; };
 		867EF52FFC7298380097AD0ED997BB78 /* Pods-RandomGenerator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5948EE92F514F8509266E30EEB9C94 /* Pods-RandomGenerator_Tests-dummy.m */; };
 		8927083867F1DD4CFBCDC510D6CFD75C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		96CC5D395B5DFE7EAEF1F83933516A54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9AFF48241DF31CD86F362FE40155C8B7 /* RandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D78BF64FD5F3353639A0790C4E8933C /* RandomGenerator.swift */; };
 		B8DC4215B89D68F55351B869B257B599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		EE762AA98E58C092B087FE5CC995C4AE /* RandomGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF2488F9F1879C1F107B5C6D1CC2A6E /* RandomGenerator-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,38 +40,38 @@
 		020B31D28F02A6384355D1AC2EA571CC /* Pods-RandomGenerator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RandomGenerator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0A6DEB1D095E45287763660BE8E9B0FB /* Pods-RandomGenerator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RandomGenerator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0DBF7CB80FB748D16E38161B102B6B3C /* Pods-RandomGenerator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RandomGenerator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		157F8D22A28D062130DB64DB1BA2F0F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		18FCC41D501BE8C1E3AFF3733F8D5451 /* Pods-RandomGenerator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RandomGenerator_Example-resources.sh"; sourceTree = "<group>"; };
 		1A37E819BEA1813EE70EB892C7165259 /* Pods_RandomGenerator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RandomGenerator_Tests.framework; path = "Pods-RandomGenerator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2191D47F23328D08F94370102B10E951 /* RandomGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RandomGenerator-prefix.pch"; sourceTree = "<group>"; };
-		2C69F04807839DFD3B00C6C2624CA579 /* RandomGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RandomGenerator.modulemap; sourceTree = "<group>"; };
-		3425BC3E0B9FB1C4EC2E8CD9499DFD9D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		23E6A2C63FF13B1CCA8A0D976004A432 /* RandomGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RandomGenerator-prefix.pch"; sourceTree = "<group>"; };
 		3548B6CA2D354F32FA54759360888AF4 /* Pods-RandomGenerator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RandomGenerator_Tests.modulemap"; sourceTree = "<group>"; };
 		39E405CF17449C365521A616633F55DA /* Pods-RandomGenerator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RandomGenerator_Example.modulemap"; sourceTree = "<group>"; };
 		3C8ECF12E435AAD69754AE1338492402 /* Pods-RandomGenerator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RandomGenerator_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3F5D7DBAA303926B48090339A830DD90 /* Pods-RandomGenerator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RandomGenerator_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5241C7AD95E13295F9E24571D65E8A2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5E01F40FC67AC9B2A9E3FE8CA52F557C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F1B0F7C1133B15B384A87D545A4A84C /* Pods-RandomGenerator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RandomGenerator_Example-dummy.m"; sourceTree = "<group>"; };
+		74522784A424CA669FCAC71464D9EEBA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		747DDA004F584BAF14823D0CB0A7D9B7 /* RandomGenerator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RandomGenerator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7D78BF64FD5F3353639A0790C4E8933C /* RandomGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomGenerator.swift; path = RandomGenerator/Classes/RandomGenerator.swift; sourceTree = "<group>"; };
 		7E5948EE92F514F8509266E30EEB9C94 /* Pods-RandomGenerator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RandomGenerator_Tests-dummy.m"; sourceTree = "<group>"; };
+		837EC089ABB8235D1D20045B49443ED1 /* RandomGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RandomGenerator-umbrella.h"; sourceTree = "<group>"; };
 		92CB36E76C4F061DC2E597F8A9ADA47C /* Pods-RandomGenerator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RandomGenerator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F1535515F8864534DC562634C6C93EE /* RandomGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RandomGenerator-umbrella.h"; sourceTree = "<group>"; };
 		A761A743DB5DBD227331942A371BCD6C /* Pods-RandomGenerator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RandomGenerator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AD16077F23C7C5AFF36E24BE3A3CB4B1 /* Pods-RandomGenerator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RandomGenerator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4FD9E8C40DACFEAA90F291D60955228 /* Pods-RandomGenerator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RandomGenerator_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		BBACF10DDA3484F21052BF153103EDAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF237506BEA3A1603F4787DD0FF4F2F1 /* Pods-RandomGenerator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RandomGenerator_Example-umbrella.h"; sourceTree = "<group>"; };
 		C15A31F16756B29945C5A787AD0826B3 /* Pods-RandomGenerator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RandomGenerator_Tests-resources.sh"; sourceTree = "<group>"; };
+		C229AC372F6A92E321EBF6C97C49EE1F /* RandomGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RandomGenerator.xcconfig; sourceTree = "<group>"; };
 		CC02608D7EA889DACA01E1A2148D532E /* Pods-RandomGenerator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RandomGenerator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CD7225AAAEEACB4EE6AF50588EC7E690 /* Pods_RandomGenerator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RandomGenerator_Example.framework; path = "Pods-RandomGenerator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6F6E5D9291D799757C2CBFFF1F65C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D182810E03A65B7AAA18DF7A1BEA77AB /* RandomGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RandomGenerator.framework; path = RandomGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7EC914F2A6CC5F265E16D5D751966AD /* RandomGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RandomGenerator.xcconfig; sourceTree = "<group>"; };
-		DEF2488F9F1879C1F107B5C6D1CC2A6E /* RandomGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RandomGenerator-dummy.m"; sourceTree = "<group>"; };
-		E476ED17D61F2D21FB513F7B18919BB0 /* RandomGenerator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RandomGenerator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E909A942E238B3320ADBFDBC2E0B6FB8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RandomGenerator/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		D45B0ACE752984B368068636996E060E /* RandomGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RandomGenerator.modulemap; sourceTree = "<group>"; };
 		EA1F5A0318F04C95005C28F5B08FFD53 /* Pods-RandomGenerator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RandomGenerator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED117202A1FAE7A05224A17B6EC39B0C /* RandomGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RandomGenerator-dummy.m"; sourceTree = "<group>"; };
+		F52A812E3A7CE015CB0A13F563862A61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,28 +111,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1C81A353960EEE71FFE6CDD39CF5465E /* Support Files */ = {
+		26FCC28992CA4520A1DE33A8AF0F8DF4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5241C7AD95E13295F9E24571D65E8A2F /* Info.plist */,
-				2C69F04807839DFD3B00C6C2624CA579 /* RandomGenerator.modulemap */,
-				D7EC914F2A6CC5F265E16D5D751966AD /* RandomGenerator.xcconfig */,
-				DEF2488F9F1879C1F107B5C6D1CC2A6E /* RandomGenerator-dummy.m */,
-				2191D47F23328D08F94370102B10E951 /* RandomGenerator-prefix.pch */,
-				9F1535515F8864534DC562634C6C93EE /* RandomGenerator-umbrella.h */,
+				F52A812E3A7CE015CB0A13F563862A61 /* Info.plist */,
+				D45B0ACE752984B368068636996E060E /* RandomGenerator.modulemap */,
+				C229AC372F6A92E321EBF6C97C49EE1F /* RandomGenerator.xcconfig */,
+				ED117202A1FAE7A05224A17B6EC39B0C /* RandomGenerator-dummy.m */,
+				23E6A2C63FF13B1CCA8A0D976004A432 /* RandomGenerator-prefix.pch */,
+				837EC089ABB8235D1D20045B49443ED1 /* RandomGenerator-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/RandomGenerator";
-			sourceTree = "<group>";
-		};
-		3BD157B745E6839E49B01BC88C85F4C5 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3425BC3E0B9FB1C4EC2E8CD9499DFD9D /* LICENSE */,
-				E476ED17D61F2D21FB513F7B18919BB0 /* RandomGenerator.podspec */,
-				157F8D22A28D062130DB64DB1BA2F0F8 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		48216DD1B27DF050D3878C1722AA517A /* Pods-RandomGenerator_Tests */ = {
@@ -182,23 +172,23 @@
 			);
 			sourceTree = "<group>";
 		};
-		9B8E1D8FFAEBEE086F952E5D8ADF13E1 /* Development Pods */ = {
+		89D2E5E0A5BFE0E802522BECB4CABE9D /* RandomGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				B3F5F3E5454088461CF174D5A11B695D /* RandomGenerator */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B3F5F3E5454088461CF174D5A11B695D /* RandomGenerator */ = {
-			isa = PBXGroup;
-			children = (
-				E909A942E238B3320ADBFDBC2E0B6FB8 /* ReplaceMe.swift */,
-				3BD157B745E6839E49B01BC88C85F4C5 /* Pod */,
-				1C81A353960EEE71FFE6CDD39CF5465E /* Support Files */,
+				7D78BF64FD5F3353639A0790C4E8933C /* RandomGenerator.swift */,
+				FB154EADEBB79DA6F248DA32A0754372 /* Pod */,
+				26FCC28992CA4520A1DE33A8AF0F8DF4 /* Support Files */,
 			);
 			name = RandomGenerator;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		9B8E1D8FFAEBEE086F952E5D8ADF13E1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89D2E5E0A5BFE0E802522BECB4CABE9D /* RandomGenerator */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -225,6 +215,16 @@
 			);
 			name = "Pods-RandomGenerator_Example";
 			path = "Target Support Files/Pods-RandomGenerator_Example";
+			sourceTree = "<group>";
+		};
+		FB154EADEBB79DA6F248DA32A0754372 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				74522784A424CA669FCAC71464D9EEBA /* LICENSE */,
+				747DDA004F584BAF14823D0CB0A7D9B7 /* RandomGenerator.podspec */,
+				CF6F6E5D9291D799757C2CBFFF1F65C2 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +262,7 @@
 			buildConfigurationList = 60BA024BA1B8479FBA82CCC5F06FDECA /* Build configuration list for PBXNativeTarget "RandomGenerator" */;
 			buildPhases = (
 				377D58F5A9A06A33C4696F1DC9B98542 /* Headers */,
-				61237C8A77CD7CC1049B9F443F307B1C /* Sources */,
+				FCF92695AF5F0B5B75476D3A4F0D9743 /* Sources */,
 				FEFD695C8897C5B5ED18A2AEEC4E871F /* Frameworks */,
 				76E20D9A8CDE36498B95BE0E49DB9985 /* Resources */,
 			);
@@ -382,12 +382,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61237C8A77CD7CC1049B9F443F307B1C /* Sources */ = {
+		FCF92695AF5F0B5B75476D3A4F0D9743 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE762AA98E58C092B087FE5CC995C4AE /* RandomGenerator-dummy.m in Sources */,
-				7EFEB5C9D5B3752F7762E8874B8A6538 /* ReplaceMe.swift in Sources */,
+				47BE16CE88B74B1C07174F9CFF8EAED2 /* RandomGenerator-dummy.m in Sources */,
+				9AFF48241DF31CD86F362FE40155C8B7 /* RandomGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +411,7 @@
 /* Begin XCBuildConfiguration section */
 		2B8698F6141F9448C4B0F7CC980E1799 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7EC914F2A6CC5F265E16D5D751966AD /* RandomGenerator.xcconfig */;
+			baseConfigurationReference = C229AC372F6A92E321EBF6C97C49EE1F /* RandomGenerator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -706,7 +706,7 @@
 		};
 		DB198AFDB574CF39E7F061FEA6366F04 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7EC914F2A6CC5F265E16D5D751966AD /* RandomGenerator.xcconfig */;
+			baseConfigurationReference = C229AC372F6A92E321EBF6C97C49EE1F /* RandomGenerator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
