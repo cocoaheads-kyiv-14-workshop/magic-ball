@@ -7,6 +7,7 @@ target 'MagicBall' do
 
   # Pods for MagicBall
   pod 'RandomGenerator', :path => 'Pods_Local/RandomGenerator'
+  pod 'Tutorial', :path => 'Pods_Local/Tutorial'
 
   target 'MagicBallTests' do
     inherit! :search_paths

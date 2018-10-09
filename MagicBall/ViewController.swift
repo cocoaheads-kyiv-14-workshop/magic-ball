@@ -8,6 +8,7 @@
 
 import UIKit
 import RandomGenerator
+import Tutorial
 
 class ViewController: UIViewController {
 
@@ -15,6 +16,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         RandomGenerator().exec()
+
+        print("--")
+
+        Tutorial().exec()
     }
 
 

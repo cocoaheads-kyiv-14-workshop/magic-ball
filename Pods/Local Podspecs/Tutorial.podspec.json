@@ -1,0 +1,27 @@
+{
+  "name": "Tutorial",
+  "version": "0.1.0",
+  "summary": "A short description of Tutorial.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/a-voronov/Tutorial",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "a-voronov": "voronovaleksandr91@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/a-voronov/Tutorial.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Tutorial/Classes/**/*",
+  "dependencies": {
+    "RandomGenerator": [
+      "~> 0.1.0"
+    ]
+  }
+}

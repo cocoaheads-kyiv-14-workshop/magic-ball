@@ -1,16 +1,22 @@
 PODS:
   - RandomGenerator (0.1.0)
+  - Tutorial (0.1.0):
+    - RandomGenerator (~> 0.1.0)
 
 DEPENDENCIES:
   - RandomGenerator (from `Pods_Local/RandomGenerator`)
+  - Tutorial (from `Pods_Local/Tutorial`)
 
 EXTERNAL SOURCES:
   RandomGenerator:
     :path: Pods_Local/RandomGenerator
+  Tutorial:
+    :path: Pods_Local/Tutorial
 
 SPEC CHECKSUMS:
   RandomGenerator: aac721db4c683c0a758104851857ad74642c79ed
+  Tutorial: 4d08fce25affb4c9f92291048571f9b5bcde388a
 
-PODFILE CHECKSUM: 84a4bc3932330f0e9791db429487b278882190c0
+PODFILE CHECKSUM: 72369eb82a737a818fe7c0e2821adf23caf8032e
 
 COCOAPODS: 1.5.3
