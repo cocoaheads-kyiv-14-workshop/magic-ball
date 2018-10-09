@@ -1,0 +1,16 @@
+PODS:
+  - Tutorial (0.1.0)
+
+DEPENDENCIES:
+  - Tutorial (from `../`)
+
+EXTERNAL SOURCES:
+  Tutorial:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Tutorial: 93c42fbc82eab26f6c2b196b37c1ba3a25b0b036
+
+PODFILE CHECKSUM: 990bd87bcdb549f8c3dc88863ebd34eafe63be6d
+
+COCOAPODS: 1.5.3
