@@ -51,3 +51,5 @@ xcov_output
 # slather
 slather_output
 
+# Vim
+vim-markdown-preview.html
