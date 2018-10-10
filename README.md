@@ -21,8 +21,6 @@ Main project
 
 ---
 
-## Further Steps
-
 We now need to extract local pods into private repos:
 
 - [ RandomGenerator ](https://github.com/cocoaheads-kyiv-14-workshop/random-generator)
@@ -43,3 +41,33 @@ We now need to extract local pods into private repos:
 - Switched MagicBall to private Tutorial repo instead of local one (see *Podfile*)
 - As a result, we are able to develop private interdependent modules at the same time using [CocoaPods](https://cocoapods.org)
 
+---
+
+## Automating things
+
+This `pod repo push ...` command and the whole flow of updating version and creating a new tag might become really annoying.    
+So we decide to automate the whole release process. [Fastlane](https://fastlane.tools) will help us with this.
+
+### [ RandomGenerator 0.1.1 ](https://github.com/cocoaheads-kyiv-14-workshop/random-generator/releases/0.1.1)
+
+- Created lane to automate routine release tasks:    
+  `bundle exec fastlane release` on any branch - that's how simple it is    
+  `bundle exec fastlane release version:1.2.3 message:"my new version"` - advanced usage
+  - register specs repo if one isn't yet in your system
+  - check if current branch is clean
+  - checkout to *master* and pull any changes
+  - update version in podspec, either to one from *version* argument, or patch update by default
+  - commit and push to master with message, either from *message* argument, or default one
+  - create tag either from  *version* argument, or from default patch version update and push it
+  - finally, validate and push pod to specs repo
+
+We now need to share this lane across multiple private pod repos.    
+Git submodules? Another pod? :) [Fastlane import](https://docs.fastlane.tools/advanced/Fastfile/#importing-another-fastfile)!
+
+### [ RandomGenerator 0.1.2 ](https://github.com/cocoaheads-kyiv-14-workshop/random-generator/releases/0.1.2), [ Tutorial 0.1.1 ](https://github.com/cocoaheads-kyiv-14-workshop/tutorial/releases/0.1.1)
+- Created [shared-lanes](https://github.com/cocoaheads-kyiv-14-workshop/shared-lanes) repo to store lanes that should be shared between private pods
+- Imporing *release* lane in RandomGenerator and Tutorial (see *fastlane/Fastfile*)
+
+### [ 1.5 ](../../releases/1.5)
+
+- Introduced [Fastlane](https://fastlane.tools) and shared it between private pods
