@@ -6,7 +6,7 @@ target 'MagicBall' do
   use_frameworks!
 
   # Pods for MagicBall
-  pod 'RandomGenerator', :path => 'Pods_Local/RandomGenerator'
+  pod 'RandomGenerator', '~> 0.1.0', :source => 'git@github.com:cocoaheads-kyiv-14-workshop/specs.git'
   pod 'Tutorial', :path => 'Pods_Local/Tutorial'
 
   target 'MagicBallTests' do

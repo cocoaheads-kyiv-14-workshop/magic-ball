@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		015A320612E3A3D23BA7369F8A8E30CD /* Pods-MagicBall-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8D4E42CF81743A8EB23B5D17D55C04 /* Pods-MagicBall-dummy.m */; };
-		0510BAA8A3597A5AD566B733C36B6292 /* Tutorial-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9844CA034F29C25D3A402B832A5FC378 /* Tutorial-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07989ACA7592C5C8DD1DB02D6E593671 /* RandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0B25BB7E49EFD9BBC0481559F5D02C /* RandomGenerator.swift */; };
+		0510BAA8A3597A5AD566B733C36B6292 /* Tutorial-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC72C23FCFD61B55562EBD6A5C75DCC /* Tutorial-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07989ACA7592C5C8DD1DB02D6E593671 /* RandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4617BB7FDE1EC13B41E1F2897E75F8 /* RandomGenerator.swift */; };
 		113548664DD171200F422F86BFF68D5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16719A475BB890524B055EE187C778B8 /* Foundation.framework */; };
 		163C404DA4098ED053AE2D40A2AA22CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16719A475BB890524B055EE187C778B8 /* Foundation.framework */; };
-		19DAA661E3B9C22A679032AB0F529C61 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853DE739E35DC77219E623A111AAF55 /* Tutorial.swift */; };
+		19DAA661E3B9C22A679032AB0F529C61 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766FBF032465CBA7553D011156095667 /* Tutorial.swift */; };
 		61DAF0F8299A9B1FF76A172663B4FFF5 /* Pods-MagicBallTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 220D419C823630CD338D9A6C5213EFC3 /* Pods-MagicBallTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9429CE221ACF245F81278F660B8F46AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16719A475BB890524B055EE187C778B8 /* Foundation.framework */; };
 		B413FF567B82818FD7C6F557DCF9EF19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16719A475BB890524B055EE187C778B8 /* Foundation.framework */; };
 		B8ECF8C13D73733E078D007F03B98080 /* Pods-MagicBall-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 912F703F58AE36B2754A4B2B4C2D09D8 /* Pods-MagicBall-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C07885CFC3AD28F43AFBED259D258FF1 /* RandomGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0CAAB97FB0C70DC376B825941B2134 /* RandomGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C07885CFC3AD28F43AFBED259D258FF1 /* RandomGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D92829E98B233F77CED7069800FDE296 /* RandomGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCDDBF4DFB17A9AB84187187118D3DDF /* Pods-MagicBallTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0BF28DC5F1C0163911ADA9AF3895AA /* Pods-MagicBallTests-dummy.m */; };
-		E06BA0187FB9665A847FB3FFEB2512ED /* RandomGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7249DE5A59E2CEAD501B42856A06A08 /* RandomGenerator-dummy.m */; };
+		E06BA0187FB9665A847FB3FFEB2512ED /* RandomGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299C85BF5FCECB855261E512E68D720 /* RandomGenerator-dummy.m */; };
 		EFEA42E8B608BD2C725F02CA1E054E86 /* RandomGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682AB96673D0EC70F232D589433F43CE /* RandomGenerator.framework */; };
-		F290E4DE2CA816EFDF13D8099C878F0F /* Tutorial-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D03708741F1B0DD5169CFCE41D6D9763 /* Tutorial-dummy.m */; };
+		F290E4DE2CA816EFDF13D8099C878F0F /* Tutorial-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B8A922FAE11492FB87100FBB79508 /* Tutorial-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,52 +56,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07A9B72BE1E0003679015230FA6BEB8A /* RandomGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RandomGenerator.xcconfig; sourceTree = "<group>"; };
-		07C143B797B2D0B0D59802F24AD68F38 /* Tutorial-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tutorial-prefix.pch"; sourceTree = "<group>"; };
-		0CD0D4DBB6317C6F3B79E510FACB09AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0299C85BF5FCECB855261E512E68D720 /* RandomGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RandomGenerator-dummy.m"; sourceTree = "<group>"; };
 		0FD020B85684EFF1F9A07F8E1C8FFBFD /* RandomGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RandomGenerator.framework; path = RandomGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		12240C74034B45453389273B9A9075DF /* Tutorial.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Tutorial.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		13D0938DF2741976ECC277D2829B4CC6 /* Pods-MagicBall-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagicBall-frameworks.sh"; sourceTree = "<group>"; };
 		16719A475BB890524B055EE187C778B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1853DE739E35DC77219E623A111AAF55 /* Tutorial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tutorial.swift; path = Tutorial/Classes/Tutorial.swift; sourceTree = "<group>"; };
 		19EEAA6D184EEA5772AC19F472AFA112 /* Pods-MagicBallTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagicBallTests-frameworks.sh"; sourceTree = "<group>"; };
 		1A8D4E42CF81743A8EB23B5D17D55C04 /* Pods-MagicBall-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagicBall-dummy.m"; sourceTree = "<group>"; };
 		1D4005D0988DAE8D4C0FB5E621DD7C42 /* Pods-MagicBall-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagicBall-acknowledgements.plist"; sourceTree = "<group>"; };
+		1DC72C23FCFD61B55562EBD6A5C75DCC /* Tutorial-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tutorial-umbrella.h"; sourceTree = "<group>"; };
 		1E3B25E0547ED8EAEB9660D600B6BDE4 /* Pods-MagicBallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagicBallTests.release.xcconfig"; sourceTree = "<group>"; };
-		21288E144D4D35F31C420EDF15584882 /* RandomGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RandomGenerator-prefix.pch"; sourceTree = "<group>"; };
 		220D419C823630CD338D9A6C5213EFC3 /* Pods-MagicBallTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagicBallTests-umbrella.h"; sourceTree = "<group>"; };
 		24E1419FF3E49D8D27879BD19F372CE4 /* Pods_MagicBallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagicBallTests.framework; path = "Pods-MagicBallTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A0B25BB7E49EFD9BBC0481559F5D02C /* RandomGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomGenerator.swift; path = RandomGenerator/Classes/RandomGenerator.swift; sourceTree = "<group>"; };
 		2B0B4E8F8FE1B1BBBE7E9BE619BB938E /* Pods-MagicBall-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagicBall-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2DF937035A4F27A250C6889E780F7D95 /* Tutorial.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Tutorial.modulemap; sourceTree = "<group>"; };
-		32BB97455ABFFDE1F1E022F8E86E0DA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4E485F4ACA298E33F044EA9F5AA09A /* Tutorial.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Tutorial.xcconfig; sourceTree = "<group>"; };
 		364083C9C2DC050B682C9635DA359D5B /* Pods_MagicBall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagicBall.framework; path = "Pods-MagicBall.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DE597B0F0217ACF19FD02CD231D66E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3A4B8A922FAE11492FB87100FBB79508 /* Tutorial-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Tutorial-dummy.m"; sourceTree = "<group>"; };
 		3F60A6EEBB745D36FF721320EF356877 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A0CAAB97FB0C70DC376B825941B2134 /* RandomGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RandomGenerator-umbrella.h"; sourceTree = "<group>"; };
+		4777F9DA536470A72A724F0F21F194DF /* RandomGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RandomGenerator.xcconfig; sourceTree = "<group>"; };
+		4AB00E17FFD1D0C7399D1BCBD7CD589B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		557D696239C032A718C61814B18F4747 /* Pods-MagicBallTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagicBallTests.modulemap"; sourceTree = "<group>"; };
-		5BF415CFDE3422F4DFEEDA3A9A8C2FDE /* RandomGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RandomGenerator.modulemap; sourceTree = "<group>"; };
 		5D18B96B09982290923C5BE1E6A1A778 /* Pods-MagicBall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagicBall.release.xcconfig"; sourceTree = "<group>"; };
-		5E661D1F85AF75AFA7BF95868D08FEA6 /* RandomGenerator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RandomGenerator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		62443FFD99BA70C0C40EECC568364C27 /* Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Tutorial.framework; path = Tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64DA9E680521C0110C4B8C9D5A223B7F /* Pods-MagicBallTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagicBallTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		682AB96673D0EC70F232D589433F43CE /* RandomGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RandomGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BA7808F29B3CA1ED2A2C1BBFD5BC529 /* Pods-MagicBall-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagicBall-resources.sh"; sourceTree = "<group>"; };
-		70B882E0E574D40F7846BB2A51CF68A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		82A73F60912F41003163AC59E91C9D05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		766FBF032465CBA7553D011156095667 /* Tutorial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tutorial.swift; path = Tutorial/Classes/Tutorial.swift; sourceTree = "<group>"; };
+		83802C823FA2B48A62E19D4C4C2538A0 /* Tutorial-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tutorial-prefix.pch"; sourceTree = "<group>"; };
+		84419CFC383464BC58357AD66F3233E1 /* Tutorial.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Tutorial.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		85D4AE4C280E71EE7F789AF50BC0F867 /* Tutorial.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Tutorial.modulemap; sourceTree = "<group>"; };
 		912F703F58AE36B2754A4B2B4C2D09D8 /* Pods-MagicBall-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagicBall-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9844CA034F29C25D3A402B832A5FC378 /* Tutorial-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tutorial-umbrella.h"; sourceTree = "<group>"; };
+		9F4617BB7FDE1EC13B41E1F2897E75F8 /* RandomGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomGenerator.swift; path = RandomGenerator/Classes/RandomGenerator.swift; sourceTree = "<group>"; };
+		B6D93DAFE778FACFC036135D80A8430F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B712F1CFB9AC126C103FE478083F6E7B /* Pods-MagicBallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagicBallTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8904B210399D967DB1391B42E490169 /* Pods-MagicBallTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagicBallTests-resources.sh"; sourceTree = "<group>"; };
 		BB0BF28DC5F1C0163911ADA9AF3895AA /* Pods-MagicBallTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagicBallTests-dummy.m"; sourceTree = "<group>"; };
 		BB41FF1E4BC6F265F67342FA648CD5AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC656A71F86891AED5AC15B4FDDE4357 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0D7D09CAF42E3A6094373615606BA0A /* RandomGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RandomGenerator.modulemap; sourceTree = "<group>"; };
 		C3BF613B93F8C18FC5439CD458156BA6 /* Pods-MagicBallTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagicBallTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C7249DE5A59E2CEAD501B42856A06A08 /* RandomGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RandomGenerator-dummy.m"; sourceTree = "<group>"; };
-		D03708741F1B0DD5169CFCE41D6D9763 /* Tutorial-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Tutorial-dummy.m"; sourceTree = "<group>"; };
-		D43B148573037BA8CD949E4034D58D2B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D92829E98B233F77CED7069800FDE296 /* RandomGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RandomGenerator-umbrella.h"; sourceTree = "<group>"; };
 		DC3BDB11945F1AC0E4B907F9CD94C0CE /* Pods-MagicBall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagicBall.debug.xcconfig"; sourceTree = "<group>"; };
-		E80964D2A4B2C8D408E0FB6A3BEA725B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		EC133A164D0A5DBDF97BF6377A806406 /* Tutorial.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Tutorial.xcconfig; sourceTree = "<group>"; };
+		FFBDA99F52852216ED20D4A2E3EBB420 /* RandomGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RandomGenerator-prefix.pch"; sourceTree = "<group>"; };
 		FFE2EE2FE83D1E10267FF2DE9EBAB99A /* Pods-MagicBall.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagicBall.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,18 +139,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1DC5D9ECAFE13E3337F21CD6ECD2CA18 /* Support Files */ = {
+		398AA213DA1A61F862991911EBD84A85 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				32BB97455ABFFDE1F1E022F8E86E0DA4 /* Info.plist */,
-				2DF937035A4F27A250C6889E780F7D95 /* Tutorial.modulemap */,
-				EC133A164D0A5DBDF97BF6377A806406 /* Tutorial.xcconfig */,
-				D03708741F1B0DD5169CFCE41D6D9763 /* Tutorial-dummy.m */,
-				07C143B797B2D0B0D59802F24AD68F38 /* Tutorial-prefix.pch */,
-				9844CA034F29C25D3A402B832A5FC378 /* Tutorial-umbrella.h */,
+				3B1D94F80F3A2F93817A5CB6FB974D60 /* RandomGenerator */,
 			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/Tutorial";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B1D94F80F3A2F93817A5CB6FB974D60 /* RandomGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				9F4617BB7FDE1EC13B41E1F2897E75F8 /* RandomGenerator.swift */,
+				949649F0D40A7D126F1199F3346D19DA /* Support Files */,
+			);
+			name = RandomGenerator;
+			path = RandomGenerator;
 			sourceTree = "<group>";
 		};
 		3EA9A8F5C4E8A3877C678BD2B8140590 /* iOS */ = {
@@ -202,6 +203,39 @@
 			path = "Target Support Files/Pods-MagicBallTests";
 			sourceTree = "<group>";
 		};
+		5AFC78C89C7A6CC60A4AB575BF42E151 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC656A71F86891AED5AC15B4FDDE4357 /* Info.plist */,
+				85D4AE4C280E71EE7F789AF50BC0F867 /* Tutorial.modulemap */,
+				2D4E485F4ACA298E33F044EA9F5AA09A /* Tutorial.xcconfig */,
+				3A4B8A922FAE11492FB87100FBB79508 /* Tutorial-dummy.m */,
+				83802C823FA2B48A62E19D4C4C2538A0 /* Tutorial-prefix.pch */,
+				1DC72C23FCFD61B55562EBD6A5C75DCC /* Tutorial-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/Tutorial";
+			sourceTree = "<group>";
+		};
+		6A0064013AA75431ABA69D16B96A3920 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				766FBF032465CBA7553D011156095667 /* Tutorial.swift */,
+				DDF3F619F1F9139616D426D503C43539 /* Pod */,
+				5AFC78C89C7A6CC60A4AB575BF42E151 /* Support Files */,
+			);
+			name = Tutorial;
+			path = ../Pods_Local/Tutorial;
+			sourceTree = "<group>";
+		};
+		6B66C3D2F7E2A1C9D190415A81E5684B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A0064013AA75431ABA69D16B96A3920 /* Tutorial */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		6D2C6FF8E6DA3CE4B100792BC5AE810B /* Pods-MagicBall */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,48 +254,30 @@
 			path = "Target Support Files/Pods-MagicBall";
 			sourceTree = "<group>";
 		};
-		78F18F2FD0596C05F169DE7D0C032B31 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				82A73F60912F41003163AC59E91C9D05 /* Info.plist */,
-				5BF415CFDE3422F4DFEEDA3A9A8C2FDE /* RandomGenerator.modulemap */,
-				07A9B72BE1E0003679015230FA6BEB8A /* RandomGenerator.xcconfig */,
-				C7249DE5A59E2CEAD501B42856A06A08 /* RandomGenerator-dummy.m */,
-				21288E144D4D35F31C420EDF15584882 /* RandomGenerator-prefix.pch */,
-				4A0CAAB97FB0C70DC376B825941B2134 /* RandomGenerator-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/RandomGenerator";
-			sourceTree = "<group>";
-		};
-		7C29ABC2136C1B70550E362A4CD7F1C9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E80964D2A4B2C8D408E0FB6A3BEA725B /* LICENSE */,
-				5E661D1F85AF75AFA7BF95868D08FEA6 /* RandomGenerator.podspec */,
-				70B882E0E574D40F7846BB2A51CF68A2 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B1775F8A890B1308E2010D66130809F8 /* Development Pods */,
+				6B66C3D2F7E2A1C9D190415A81E5684B /* Development Pods */,
 				BA2F6C0A6B7CB7294D29466AC735AAC1 /* Frameworks */,
+				398AA213DA1A61F862991911EBD84A85 /* Pods */,
 				4C3599C32D8B0634E91D1257D4410644 /* Products */,
 				4D9BA1DA642E1D921C5B7E9F99B2160C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B1775F8A890B1308E2010D66130809F8 /* Development Pods */ = {
+		949649F0D40A7D126F1199F3346D19DA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D3E31EF238794A5A4486E5A43BFF55D9 /* RandomGenerator */,
-				BB5CB9595440AAE9D32FC98A318B8863 /* Tutorial */,
+				4AB00E17FFD1D0C7399D1BCBD7CD589B /* Info.plist */,
+				C0D7D09CAF42E3A6094373615606BA0A /* RandomGenerator.modulemap */,
+				4777F9DA536470A72A724F0F21F194DF /* RandomGenerator.xcconfig */,
+				0299C85BF5FCECB855261E512E68D720 /* RandomGenerator-dummy.m */,
+				FFBDA99F52852216ED20D4A2E3EBB420 /* RandomGenerator-prefix.pch */,
+				D92829E98B233F77CED7069800FDE296 /* RandomGenerator-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/RandomGenerator";
 			sourceTree = "<group>";
 		};
 		BA2F6C0A6B7CB7294D29466AC735AAC1 /* Frameworks */ = {
@@ -273,34 +289,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BB5CB9595440AAE9D32FC98A318B8863 /* Tutorial */ = {
+		DDF3F619F1F9139616D426D503C43539 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1853DE739E35DC77219E623A111AAF55 /* Tutorial.swift */,
-				F8B4FE414C0CD29688686208572AA279 /* Pod */,
-				1DC5D9ECAFE13E3337F21CD6ECD2CA18 /* Support Files */,
-			);
-			name = Tutorial;
-			path = ../Pods_Local/Tutorial;
-			sourceTree = "<group>";
-		};
-		D3E31EF238794A5A4486E5A43BFF55D9 /* RandomGenerator */ = {
-			isa = PBXGroup;
-			children = (
-				2A0B25BB7E49EFD9BBC0481559F5D02C /* RandomGenerator.swift */,
-				7C29ABC2136C1B70550E362A4CD7F1C9 /* Pod */,
-				78F18F2FD0596C05F169DE7D0C032B31 /* Support Files */,
-			);
-			name = RandomGenerator;
-			path = ../Pods_Local/RandomGenerator;
-			sourceTree = "<group>";
-		};
-		F8B4FE414C0CD29688686208572AA279 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D43B148573037BA8CD949E4034D58D2B /* LICENSE */,
-				0CD0D4DBB6317C6F3B79E510FACB09AE /* README.md */,
-				12240C74034B45453389273B9A9075DF /* Tutorial.podspec */,
+				39DE597B0F0217ACF19FD02CD231D66E /* LICENSE */,
+				B6D93DAFE778FACFC036135D80A8430F /* README.md */,
+				84419CFC383464BC58357AD66F3233E1 /* Tutorial.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -584,7 +578,7 @@
 		};
 		0B9BE5EBC9F1066E71594A950A7B483C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07A9B72BE1E0003679015230FA6BEB8A /* RandomGenerator.xcconfig */;
+			baseConfigurationReference = 4777F9DA536470A72A724F0F21F194DF /* RandomGenerator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -622,7 +616,7 @@
 		};
 		116849B6D3A725B36208FB6B87C39603 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC133A164D0A5DBDF97BF6377A806406 /* Tutorial.xcconfig */;
+			baseConfigurationReference = 2D4E485F4ACA298E33F044EA9F5AA09A /* Tutorial.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -739,7 +733,7 @@
 		};
 		308A4A1B9DDE05BCC5CDA103CF2318ED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07A9B72BE1E0003679015230FA6BEB8A /* RandomGenerator.xcconfig */;
+			baseConfigurationReference = 4777F9DA536470A72A724F0F21F194DF /* RandomGenerator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -939,7 +933,7 @@
 		};
 		88175AFB2EE53E5A6352BC399E65D718 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC133A164D0A5DBDF97BF6377A806406 /* Tutorial.xcconfig */;
+			baseConfigurationReference = 2D4E485F4ACA298E33F044EA9F5AA09A /* Tutorial.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
