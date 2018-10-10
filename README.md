@@ -29,3 +29,11 @@ We now need to extract local pods into private repos:
 - [ Tutorial ](https://github.com/cocoaheads-kyiv-14-workshop/tutorial)
 - [ Private Specs repo ](https://github.com/cocoaheads-kyiv-14-workshop/specs)
 
+### [ 1.3 ](../../releases/1.3)
+- Registered private [ Specs ](https://github.com/cocoaheads-kyiv-14-workshop/specs) repo: `bundle exec pod repo add magic-ball-specs git@github.com:cocoaheads-kyiv-14-workshop/specs.git`
+- Moved [ RandomGenerator ](https://github.com/cocoaheads-kyiv-14-workshop/random-generator) from MagicBall local pods into separate private repo pod
+- Published RandomGenerator 0.1.0 version: `bundle exec pod repo push magic-ball-specs RandomGenerator.podspec --allow-warnings --verbose`
+- Switched Tutorial to private RandomGenerator repo instead of local one (see *Tutorial/Example/Podfile*)
+- Switched MagicBall to private RandomGenerator repo instead of local one (see *Podfile*)
+- As a result, we are able to develop mixed interdependent modules - local and from private repos at the same time using [CocoaPods](https://cocoapods.org)
+
