@@ -7,8 +7,7 @@ target 'MagicBall' do
 
   # Pods for MagicBall
   pod 'RandomGenerator', '~> 0.1.0', :source => 'git@github.com:cocoaheads-kyiv-14-workshop/specs.git'
-  pod 'Tutorial', :path => 'Pods_Local/Tutorial'
-
+  pod 'Tutorial',        '~> 0.1.0', :source => 'git@github.com:cocoaheads-kyiv-14-workshop/specs.git'
   target 'MagicBallTests' do
     inherit! :search_paths
     # Pods for testing

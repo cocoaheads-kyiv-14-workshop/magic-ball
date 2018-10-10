@@ -8,20 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		015A320612E3A3D23BA7369F8A8E30CD /* Pods-MagicBall-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8D4E42CF81743A8EB23B5D17D55C04 /* Pods-MagicBall-dummy.m */; };
-		0510BAA8A3597A5AD566B733C36B6292 /* Tutorial-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC72C23FCFD61B55562EBD6A5C75DCC /* Tutorial-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07989ACA7592C5C8DD1DB02D6E593671 /* RandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4617BB7FDE1EC13B41E1F2897E75F8 /* RandomGenerator.swift */; };
+		0510BAA8A3597A5AD566B733C36B6292 /* Tutorial-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E25581D3E032CD257FE26D3A273ACDCA /* Tutorial-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07989ACA7592C5C8DD1DB02D6E593671 /* RandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B19CC4AC0FEA088178C879E578DB92C /* RandomGenerator.swift */; };
 		113548664DD171200F422F86BFF68D5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16719A475BB890524B055EE187C778B8 /* Foundation.framework */; };
 		163C404DA4098ED053AE2D40A2AA22CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16719A475BB890524B055EE187C778B8 /* Foundation.framework */; };
-		19DAA661E3B9C22A679032AB0F529C61 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766FBF032465CBA7553D011156095667 /* Tutorial.swift */; };
+		19DAA661E3B9C22A679032AB0F529C61 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A96883B7D4D04CEFB84233400E3D44 /* Tutorial.swift */; };
+		2D203BF9727FB0BE23D00B30032740E0 /* Tutorial.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C0844C4C50597EF57443FCA6BCB82B9A /* Tutorial.bundle */; };
+		412F1885ECE03692A6FA9EB156234A92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229839CADE8CB441909CE6A854D65A26 /* Images.xcassets */; };
 		61DAF0F8299A9B1FF76A172663B4FFF5 /* Pods-MagicBallTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 220D419C823630CD338D9A6C5213EFC3 /* Pods-MagicBallTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9429CE221ACF245F81278F660B8F46AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16719A475BB890524B055EE187C778B8 /* Foundation.framework */; };
 		B413FF567B82818FD7C6F557DCF9EF19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16719A475BB890524B055EE187C778B8 /* Foundation.framework */; };
 		B8ECF8C13D73733E078D007F03B98080 /* Pods-MagicBall-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 912F703F58AE36B2754A4B2B4C2D09D8 /* Pods-MagicBall-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C07885CFC3AD28F43AFBED259D258FF1 /* RandomGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D92829E98B233F77CED7069800FDE296 /* RandomGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C07885CFC3AD28F43AFBED259D258FF1 /* RandomGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2648722BEE741EECE3D741ECE397CCB /* RandomGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6CF1CDD4EDED0F9E8BF26FD685B48B3 /* Empty.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD0AA970BA176F9DD21CD9FA28DC7E38 /* Empty.xib */; };
 		CCDDBF4DFB17A9AB84187187118D3DDF /* Pods-MagicBallTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0BF28DC5F1C0163911ADA9AF3895AA /* Pods-MagicBallTests-dummy.m */; };
-		E06BA0187FB9665A847FB3FFEB2512ED /* RandomGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299C85BF5FCECB855261E512E68D720 /* RandomGenerator-dummy.m */; };
+		E06BA0187FB9665A847FB3FFEB2512ED /* RandomGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6278380B7483EE8A87DD7388583D8559 /* RandomGenerator-dummy.m */; };
 		EFEA42E8B608BD2C725F02CA1E054E86 /* RandomGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682AB96673D0EC70F232D589433F43CE /* RandomGenerator.framework */; };
-		F290E4DE2CA816EFDF13D8099C878F0F /* Tutorial-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B8A922FAE11492FB87100FBB79508 /* Tutorial-dummy.m */; };
+		F290E4DE2CA816EFDF13D8099C878F0F /* Tutorial-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FF1FF6EA34F05EBE21F125C2111670 /* Tutorial-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,13 @@
 			remoteGlobalIDString = B2437500B862075336D83A8B65429AA2;
 			remoteInfo = RandomGenerator;
 		};
+		C46130592396B30F6FA822D07A8EBD41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26B3091FA9033189F67FFDD655D2B959;
+			remoteInfo = "Tutorial-Tutorial";
+		};
 		DF58733DE62441ED9AA7E79D63419C76 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -56,49 +66,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0299C85BF5FCECB855261E512E68D720 /* RandomGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RandomGenerator-dummy.m"; sourceTree = "<group>"; };
-		0FD020B85684EFF1F9A07F8E1C8FFBFD /* RandomGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RandomGenerator.framework; path = RandomGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B490E24EED43831001A925F27E78FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13D0938DF2741976ECC277D2829B4CC6 /* Pods-MagicBall-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagicBall-frameworks.sh"; sourceTree = "<group>"; };
 		16719A475BB890524B055EE187C778B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		19EEAA6D184EEA5772AC19F472AFA112 /* Pods-MagicBallTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagicBallTests-frameworks.sh"; sourceTree = "<group>"; };
 		1A8D4E42CF81743A8EB23B5D17D55C04 /* Pods-MagicBall-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagicBall-dummy.m"; sourceTree = "<group>"; };
 		1D4005D0988DAE8D4C0FB5E621DD7C42 /* Pods-MagicBall-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagicBall-acknowledgements.plist"; sourceTree = "<group>"; };
-		1DC72C23FCFD61B55562EBD6A5C75DCC /* Tutorial-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tutorial-umbrella.h"; sourceTree = "<group>"; };
 		1E3B25E0547ED8EAEB9660D600B6BDE4 /* Pods-MagicBallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagicBallTests.release.xcconfig"; sourceTree = "<group>"; };
+		20AC0057D2315D373AEE773919E59BAB /* Pods_MagicBallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagicBallTests.framework; path = "Pods-MagicBallTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		220D419C823630CD338D9A6C5213EFC3 /* Pods-MagicBallTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagicBallTests-umbrella.h"; sourceTree = "<group>"; };
-		24E1419FF3E49D8D27879BD19F372CE4 /* Pods_MagicBallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagicBallTests.framework; path = "Pods-MagicBallTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		229839CADE8CB441909CE6A854D65A26 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Tutorial/Assets/Images.xcassets; sourceTree = "<group>"; };
 		2B0B4E8F8FE1B1BBBE7E9BE619BB938E /* Pods-MagicBall-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagicBall-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2D4E485F4ACA298E33F044EA9F5AA09A /* Tutorial.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Tutorial.xcconfig; sourceTree = "<group>"; };
-		364083C9C2DC050B682C9635DA359D5B /* Pods_MagicBall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagicBall.framework; path = "Pods-MagicBall.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		39DE597B0F0217ACF19FD02CD231D66E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3A4B8A922FAE11492FB87100FBB79508 /* Tutorial-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Tutorial-dummy.m"; sourceTree = "<group>"; };
+		33180985DB0A769A1E2A0CB55B0AB0FB /* ResourceBundle-Tutorial-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Tutorial-Info.plist"; sourceTree = "<group>"; };
+		37B3B3F081E14ADDE8ACAD9F6063F32C /* Pods_MagicBall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagicBall.framework; path = "Pods-MagicBall.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F60A6EEBB745D36FF721320EF356877 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4777F9DA536470A72A724F0F21F194DF /* RandomGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RandomGenerator.xcconfig; sourceTree = "<group>"; };
-		4AB00E17FFD1D0C7399D1BCBD7CD589B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		557D696239C032A718C61814B18F4747 /* Pods-MagicBallTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagicBallTests.modulemap"; sourceTree = "<group>"; };
 		5D18B96B09982290923C5BE1E6A1A778 /* Pods-MagicBall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagicBall.release.xcconfig"; sourceTree = "<group>"; };
-		62443FFD99BA70C0C40EECC568364C27 /* Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Tutorial.framework; path = Tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6278380B7483EE8A87DD7388583D8559 /* RandomGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RandomGenerator-dummy.m"; sourceTree = "<group>"; };
 		64DA9E680521C0110C4B8C9D5A223B7F /* Pods-MagicBallTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagicBallTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		682AB96673D0EC70F232D589433F43CE /* RandomGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RandomGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BA7808F29B3CA1ED2A2C1BBFD5BC529 /* Pods-MagicBall-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagicBall-resources.sh"; sourceTree = "<group>"; };
-		766FBF032465CBA7553D011156095667 /* Tutorial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tutorial.swift; path = Tutorial/Classes/Tutorial.swift; sourceTree = "<group>"; };
-		83802C823FA2B48A62E19D4C4C2538A0 /* Tutorial-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tutorial-prefix.pch"; sourceTree = "<group>"; };
-		84419CFC383464BC58357AD66F3233E1 /* Tutorial.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Tutorial.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		85D4AE4C280E71EE7F789AF50BC0F867 /* Tutorial.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Tutorial.modulemap; sourceTree = "<group>"; };
+		7F2EA7FBD641E1E1BB5AA6B2D66B3828 /* Tutorial.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Tutorial.xcconfig; sourceTree = "<group>"; };
 		912F703F58AE36B2754A4B2B4C2D09D8 /* Pods-MagicBall-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagicBall-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F4617BB7FDE1EC13B41E1F2897E75F8 /* RandomGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomGenerator.swift; path = RandomGenerator/Classes/RandomGenerator.swift; sourceTree = "<group>"; };
-		B6D93DAFE778FACFC036135D80A8430F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9B19CC4AC0FEA088178C879E578DB92C /* RandomGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomGenerator.swift; path = RandomGenerator/Classes/RandomGenerator.swift; sourceTree = "<group>"; };
+		AE92C8368076B3B4A758EF76D2935235 /* Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Tutorial.framework; path = Tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1FF1FF6EA34F05EBE21F125C2111670 /* Tutorial-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Tutorial-dummy.m"; sourceTree = "<group>"; };
+		B5D5661913DC947EA74B6F55BA0909DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B712F1CFB9AC126C103FE478083F6E7B /* Pods-MagicBallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagicBallTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8904B210399D967DB1391B42E490169 /* Pods-MagicBallTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagicBallTests-resources.sh"; sourceTree = "<group>"; };
+		B8A96883B7D4D04CEFB84233400E3D44 /* Tutorial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tutorial.swift; path = Tutorial/Classes/Tutorial.swift; sourceTree = "<group>"; };
 		BB0BF28DC5F1C0163911ADA9AF3895AA /* Pods-MagicBallTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagicBallTests-dummy.m"; sourceTree = "<group>"; };
 		BB41FF1E4BC6F265F67342FA648CD5AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC656A71F86891AED5AC15B4FDDE4357 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0D7D09CAF42E3A6094373615606BA0A /* RandomGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RandomGenerator.modulemap; sourceTree = "<group>"; };
+		C0844C4C50597EF57443FCA6BCB82B9A /* Tutorial.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tutorial.bundle; path = "Tutorial-Tutorial.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3BF613B93F8C18FC5439CD458156BA6 /* Pods-MagicBallTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagicBallTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D92829E98B233F77CED7069800FDE296 /* RandomGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RandomGenerator-umbrella.h"; sourceTree = "<group>"; };
+		C4B7F6726EAFD6C5F087F2FD2A645F23 /* RandomGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RandomGenerator.framework; path = RandomGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0AA970BA176F9DD21CD9FA28DC7E38 /* Empty.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = Empty.xib; path = Tutorial/Classes/Empty.xib; sourceTree = "<group>"; };
+		D158511EB405E33C9B8AC61DC46D1AC9 /* Tutorial-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tutorial-prefix.pch"; sourceTree = "<group>"; };
 		DC3BDB11945F1AC0E4B907F9CD94C0CE /* Pods-MagicBall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagicBall.debug.xcconfig"; sourceTree = "<group>"; };
-		FFBDA99F52852216ED20D4A2E3EBB420 /* RandomGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RandomGenerator-prefix.pch"; sourceTree = "<group>"; };
+		E25581D3E032CD257FE26D3A273ACDCA /* Tutorial-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tutorial-umbrella.h"; sourceTree = "<group>"; };
+		E2648722BEE741EECE3D741ECE397CCB /* RandomGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RandomGenerator-umbrella.h"; sourceTree = "<group>"; };
+		E9FFF8EADE59F80F050511A13E189501 /* RandomGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RandomGenerator.modulemap; sourceTree = "<group>"; };
+		F115BCE46C6A2D0B6D740548B7EEE589 /* Tutorial.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Tutorial.modulemap; sourceTree = "<group>"; };
+		F85283ED448D9A975B789163772CBB19 /* RandomGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RandomGenerator.xcconfig; sourceTree = "<group>"; };
+		FA03E4A6339F5974C0C44A50DD5BC188 /* RandomGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RandomGenerator-prefix.pch"; sourceTree = "<group>"; };
 		FFE2EE2FE83D1E10267FF2DE9EBAB99A /* Pods-MagicBall.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagicBall.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,6 +138,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		937FF4C43EBB3D0FFE5B0580E58E0428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F635FCC3E3F6CDEB04B0B61ED2DFCDC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,22 +157,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		398AA213DA1A61F862991911EBD84A85 /* Pods */ = {
+		11C53DD2D605E65B0075FEF805878A5A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B1D94F80F3A2F93817A5CB6FB974D60 /* RandomGenerator */,
+				B5D5661913DC947EA74B6F55BA0909DC /* Info.plist */,
+				E9FFF8EADE59F80F050511A13E189501 /* RandomGenerator.modulemap */,
+				F85283ED448D9A975B789163772CBB19 /* RandomGenerator.xcconfig */,
+				6278380B7483EE8A87DD7388583D8559 /* RandomGenerator-dummy.m */,
+				FA03E4A6339F5974C0C44A50DD5BC188 /* RandomGenerator-prefix.pch */,
+				E2648722BEE741EECE3D741ECE397CCB /* RandomGenerator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RandomGenerator";
+			sourceTree = "<group>";
+		};
+		1BF11E29A4E0D521E36202FCFB88A6A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C7685EA25F7463AC9704AB1EEBB46E4 /* RandomGenerator */,
+				338FBE4E8E212A4BD4E0245A566A8C60 /* Tutorial */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		3B1D94F80F3A2F93817A5CB6FB974D60 /* RandomGenerator */ = {
+		2C7685EA25F7463AC9704AB1EEBB46E4 /* RandomGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				9F4617BB7FDE1EC13B41E1F2897E75F8 /* RandomGenerator.swift */,
-				949649F0D40A7D126F1199F3346D19DA /* Support Files */,
+				9B19CC4AC0FEA088178C879E578DB92C /* RandomGenerator.swift */,
+				11C53DD2D605E65B0075FEF805878A5A /* Support Files */,
 			);
 			name = RandomGenerator;
 			path = RandomGenerator;
+			sourceTree = "<group>";
+		};
+		338FBE4E8E212A4BD4E0245A566A8C60 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				B8A96883B7D4D04CEFB84233400E3D44 /* Tutorial.swift */,
+				65640E7C2BB7307DB0E0E4DB83255A95 /* Resources */,
+				BCC8753053B4907868BD4A5C67DF27D8 /* Support Files */,
+			);
+			name = Tutorial;
+			path = Tutorial;
 			sourceTree = "<group>";
 		};
 		3EA9A8F5C4E8A3877C678BD2B8140590 /* iOS */ = {
@@ -165,13 +209,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4C3599C32D8B0634E91D1257D4410644 /* Products */ = {
+		4BD133BA4169943772CD12E6A8EE7F29 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				364083C9C2DC050B682C9635DA359D5B /* Pods_MagicBall.framework */,
-				24E1419FF3E49D8D27879BD19F372CE4 /* Pods_MagicBallTests.framework */,
-				0FD020B85684EFF1F9A07F8E1C8FFBFD /* RandomGenerator.framework */,
-				62443FFD99BA70C0C40EECC568364C27 /* Tutorial.framework */,
+				37B3B3F081E14ADDE8ACAD9F6063F32C /* Pods_MagicBall.framework */,
+				20AC0057D2315D373AEE773919E59BAB /* Pods_MagicBallTests.framework */,
+				C4B7F6726EAFD6C5F087F2FD2A645F23 /* RandomGenerator.framework */,
+				C0844C4C50597EF57443FCA6BCB82B9A /* Tutorial.bundle */,
+				AE92C8368076B3B4A758EF76D2935235 /* Tutorial.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -203,37 +248,13 @@
 			path = "Target Support Files/Pods-MagicBallTests";
 			sourceTree = "<group>";
 		};
-		5AFC78C89C7A6CC60A4AB575BF42E151 /* Support Files */ = {
+		65640E7C2BB7307DB0E0E4DB83255A95 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BC656A71F86891AED5AC15B4FDDE4357 /* Info.plist */,
-				85D4AE4C280E71EE7F789AF50BC0F867 /* Tutorial.modulemap */,
-				2D4E485F4ACA298E33F044EA9F5AA09A /* Tutorial.xcconfig */,
-				3A4B8A922FAE11492FB87100FBB79508 /* Tutorial-dummy.m */,
-				83802C823FA2B48A62E19D4C4C2538A0 /* Tutorial-prefix.pch */,
-				1DC72C23FCFD61B55562EBD6A5C75DCC /* Tutorial-umbrella.h */,
+				CD0AA970BA176F9DD21CD9FA28DC7E38 /* Empty.xib */,
+				229839CADE8CB441909CE6A854D65A26 /* Images.xcassets */,
 			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/Tutorial";
-			sourceTree = "<group>";
-		};
-		6A0064013AA75431ABA69D16B96A3920 /* Tutorial */ = {
-			isa = PBXGroup;
-			children = (
-				766FBF032465CBA7553D011156095667 /* Tutorial.swift */,
-				DDF3F619F1F9139616D426D503C43539 /* Pod */,
-				5AFC78C89C7A6CC60A4AB575BF42E151 /* Support Files */,
-			);
-			name = Tutorial;
-			path = ../Pods_Local/Tutorial;
-			sourceTree = "<group>";
-		};
-		6B66C3D2F7E2A1C9D190415A81E5684B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6A0064013AA75431ABA69D16B96A3920 /* Tutorial */,
-			);
-			name = "Development Pods";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		6D2C6FF8E6DA3CE4B100792BC5AE810B /* Pods-MagicBall */ = {
@@ -258,26 +279,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6B66C3D2F7E2A1C9D190415A81E5684B /* Development Pods */,
 				BA2F6C0A6B7CB7294D29466AC735AAC1 /* Frameworks */,
-				398AA213DA1A61F862991911EBD84A85 /* Pods */,
-				4C3599C32D8B0634E91D1257D4410644 /* Products */,
+				1BF11E29A4E0D521E36202FCFB88A6A7 /* Pods */,
+				4BD133BA4169943772CD12E6A8EE7F29 /* Products */,
 				4D9BA1DA642E1D921C5B7E9F99B2160C /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		949649F0D40A7D126F1199F3346D19DA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4AB00E17FFD1D0C7399D1BCBD7CD589B /* Info.plist */,
-				C0D7D09CAF42E3A6094373615606BA0A /* RandomGenerator.modulemap */,
-				4777F9DA536470A72A724F0F21F194DF /* RandomGenerator.xcconfig */,
-				0299C85BF5FCECB855261E512E68D720 /* RandomGenerator-dummy.m */,
-				FFBDA99F52852216ED20D4A2E3EBB420 /* RandomGenerator-prefix.pch */,
-				D92829E98B233F77CED7069800FDE296 /* RandomGenerator-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/RandomGenerator";
 			sourceTree = "<group>";
 		};
 		BA2F6C0A6B7CB7294D29466AC735AAC1 /* Frameworks */ = {
@@ -289,14 +295,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DDF3F619F1F9139616D426D503C43539 /* Pod */ = {
+		BCC8753053B4907868BD4A5C67DF27D8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				39DE597B0F0217ACF19FD02CD231D66E /* LICENSE */,
-				B6D93DAFE778FACFC036135D80A8430F /* README.md */,
-				84419CFC383464BC58357AD66F3233E1 /* Tutorial.podspec */,
+				13B490E24EED43831001A925F27E78FD /* Info.plist */,
+				33180985DB0A769A1E2A0CB55B0AB0FB /* ResourceBundle-Tutorial-Info.plist */,
+				F115BCE46C6A2D0B6D740548B7EEE589 /* Tutorial.modulemap */,
+				7F2EA7FBD641E1E1BB5AA6B2D66B3828 /* Tutorial.xcconfig */,
+				B1FF1FF6EA34F05EBE21F125C2111670 /* Tutorial-dummy.m */,
+				D158511EB405E33C9B8AC61DC46D1AC9 /* Tutorial-prefix.pch */,
+				E25581D3E032CD257FE26D3A273ACDCA /* Tutorial-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "../Target Support Files/Tutorial";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +348,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		26B3091FA9033189F67FFDD655D2B959 /* Tutorial-Tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8616B22D129F809C4510441377B06963 /* Build configuration list for PBXNativeTarget "Tutorial-Tutorial" */;
+			buildPhases = (
+				81A2A996B0C8086D718114216A9DC66B /* Sources */,
+				937FF4C43EBB3D0FFE5B0580E58E0428 /* Frameworks */,
+				12C04BBD1487FAF20CA5B809BF0F03BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tutorial-Tutorial";
+			productName = "Tutorial-Tutorial";
+			productReference = C0844C4C50597EF57443FCA6BCB82B9A /* Tutorial.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		9CFBA675BFDD77E1507A058B941CC234 /* Pods-MagicBallTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 367DB54C3E3CC6F619F7BBCEFAE09205 /* Build configuration list for PBXNativeTarget "Pods-MagicBallTests" */;
@@ -353,7 +381,7 @@
 			);
 			name = "Pods-MagicBallTests";
 			productName = "Pods-MagicBallTests";
-			productReference = 24E1419FF3E49D8D27879BD19F372CE4 /* Pods_MagicBallTests.framework */;
+			productReference = 20AC0057D2315D373AEE773919E59BAB /* Pods_MagicBallTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B2437500B862075336D83A8B65429AA2 /* RandomGenerator */ = {
@@ -371,7 +399,7 @@
 			);
 			name = RandomGenerator;
 			productName = RandomGenerator;
-			productReference = 0FD020B85684EFF1F9A07F8E1C8FFBFD /* RandomGenerator.framework */;
+			productReference = C4B7F6726EAFD6C5F087F2FD2A645F23 /* RandomGenerator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CD39004ECAF62BB7661EAD14DBA3F8C2 /* Tutorial */ = {
@@ -381,16 +409,17 @@
 				0ECF7671A0C7C5FF23BFFF14384B8AA5 /* Headers */,
 				1E78331307ABB506B7A375F762EBAE7A /* Sources */,
 				F635FCC3E3F6CDEB04B0B61ED2DFCDC1 /* Frameworks */,
-				C42D25E576C462A1D673DCD0CFF07898 /* Resources */,
+				E5F4A91E5CA0A3D0AC89FC8C7D99A5B8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				34A0D3CEA99FDEB3C662E89C9D5DAF8F /* PBXTargetDependency */,
+				1A01317F5B5110F1F412D9BED01D8CCE /* PBXTargetDependency */,
 			);
 			name = Tutorial;
 			productName = Tutorial;
-			productReference = 62443FFD99BA70C0C40EECC568364C27 /* Tutorial.framework */;
+			productReference = AE92C8368076B3B4A758EF76D2935235 /* Tutorial.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DD7C57E08D060DB326378BD725A041A5 /* Pods-MagicBall */ = {
@@ -410,7 +439,7 @@
 			);
 			name = "Pods-MagicBall";
 			productName = "Pods-MagicBall";
-			productReference = 364083C9C2DC050B682C9635DA359D5B /* Pods_MagicBall.framework */;
+			productReference = 37B3B3F081E14ADDE8ACAD9F6063F32C /* Pods_MagicBall.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -430,7 +459,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4C3599C32D8B0634E91D1257D4410644 /* Products */;
+			productRefGroup = 4BD133BA4169943772CD12E6A8EE7F29 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -438,6 +467,7 @@
 				9CFBA675BFDD77E1507A058B941CC234 /* Pods-MagicBallTests */,
 				B2437500B862075336D83A8B65429AA2 /* RandomGenerator */,
 				CD39004ECAF62BB7661EAD14DBA3F8C2 /* Tutorial */,
+				26B3091FA9033189F67FFDD655D2B959 /* Tutorial-Tutorial */,
 			);
 		};
 /* End PBXProject section */
@@ -457,6 +487,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		12C04BBD1487FAF20CA5B809BF0F03BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CF1CDD4EDED0F9E8BF26FD685B48B3 /* Empty.xib in Resources */,
+				412F1885ECE03692A6FA9EB156234A92 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48616499662A3034B4151B74DCF4BC30 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -464,10 +503,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C42D25E576C462A1D673DCD0CFF07898 /* Resources */ = {
+		E5F4A91E5CA0A3D0AC89FC8C7D99A5B8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D203BF9727FB0BE23D00B30032740E0 /* Tutorial.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +531,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		81A2A996B0C8086D718114216A9DC66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C50BB95839FFD20D1F502CCDDF9EA138 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -511,6 +558,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1A01317F5B5110F1F412D9BED01D8CCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Tutorial-Tutorial";
+			target = 26B3091FA9033189F67FFDD655D2B959 /* Tutorial-Tutorial */;
+			targetProxy = C46130592396B30F6FA822D07A8EBD41 /* PBXContainerItemProxy */;
+		};
 		2F9DA9E5DBB7FC4C436B8B39DC0F75A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RandomGenerator;
@@ -578,7 +631,7 @@
 		};
 		0B9BE5EBC9F1066E71594A950A7B483C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4777F9DA536470A72A724F0F21F194DF /* RandomGenerator.xcconfig */;
+			baseConfigurationReference = F85283ED448D9A975B789163772CBB19 /* RandomGenerator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -616,7 +669,7 @@
 		};
 		116849B6D3A725B36208FB6B87C39603 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D4E485F4ACA298E33F044EA9F5AA09A /* Tutorial.xcconfig */;
+			baseConfigurationReference = 7F2EA7FBD641E1E1BB5AA6B2D66B3828 /* Tutorial.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -733,7 +786,7 @@
 		};
 		308A4A1B9DDE05BCC5CDA103CF2318ED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4777F9DA536470A72A724F0F21F194DF /* RandomGenerator.xcconfig */;
+			baseConfigurationReference = F85283ED448D9A975B789163772CBB19 /* RandomGenerator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -867,6 +920,22 @@
 			};
 			name = Release;
 		};
+		4F3C712D8B219F22906BA0360140A7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F2EA7FBD641E1E1BB5AA6B2D66B3828 /* Tutorial.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Tutorial";
+				INFOPLIST_FILE = "Target Support Files/Tutorial/ResourceBundle-Tutorial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Tutorial;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		85ED3013A635C27F8B7FAF51362B108C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -933,7 +1002,7 @@
 		};
 		88175AFB2EE53E5A6352BC399E65D718 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D4E485F4ACA298E33F044EA9F5AA09A /* Tutorial.xcconfig */;
+			baseConfigurationReference = 7F2EA7FBD641E1E1BB5AA6B2D66B3828 /* Tutorial.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -967,6 +1036,22 @@
 			};
 			name = Debug;
 		};
+		A55F15F7A592358B212D812FDA8C14F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F2EA7FBD641E1E1BB5AA6B2D66B3828 /* Tutorial.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Tutorial";
+				INFOPLIST_FILE = "Target Support Files/Tutorial/ResourceBundle-Tutorial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Tutorial;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -993,6 +1078,15 @@
 			buildConfigurations = (
 				015969698FFE062BA5154D5235E03318 /* Debug */,
 				1D8104AAC8A24B6A932F623641FB0DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8616B22D129F809C4510441377B06963 /* Build configuration list for PBXNativeTarget "Tutorial-Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3C712D8B219F22906BA0360140A7DA /* Debug */,
+				A55F15F7A592358B212D812FDA8C14F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

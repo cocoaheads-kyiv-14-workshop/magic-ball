@@ -5,20 +5,17 @@ PODS:
 
 DEPENDENCIES:
   - RandomGenerator (~> 0.1.0)
-  - Tutorial (from `Pods_Local/Tutorial`)
+  - Tutorial (~> 0.1.0)
 
 SPEC REPOS:
   "git@github.com:cocoaheads-kyiv-14-workshop/specs.git":
     - RandomGenerator
-
-EXTERNAL SOURCES:
-  Tutorial:
-    :path: Pods_Local/Tutorial
+    - Tutorial
 
 SPEC CHECKSUMS:
   RandomGenerator: 827d0f9c04834f0b56c20528efefdd916705f7c7
-  Tutorial: 4d08fce25affb4c9f92291048571f9b5bcde388a
+  Tutorial: 7f910dc7569113e56e7cac707338f6705b92c090
 
-PODFILE CHECKSUM: d7b415b6b8089bf2958f56825f8aa6ce18217020
+PODFILE CHECKSUM: ce4e1cab9a6186a93ddb140155bfdf9c7e7b4040
 
 COCOAPODS: 1.5.3
