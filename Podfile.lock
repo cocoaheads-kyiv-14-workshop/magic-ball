@@ -1,6 +1,6 @@
 PODS:
-  - RandomGenerator (0.1.2)
-  - Tutorial (0.1.1):
+  - RandomGenerator (0.1.3)
+  - Tutorial (0.1.2):
     - RandomGenerator (~> 0.1.0)
 
 DEPENDENCIES:
@@ -13,8 +13,8 @@ SPEC REPOS:
     - Tutorial
 
 SPEC CHECKSUMS:
-  RandomGenerator: dc2f001c1f987cb903fb61afacfe9726e001f94f
-  Tutorial: 7627e542baa1c6d7a7f74eadbdb8193174e35cc1
+  RandomGenerator: 723ec5cd775d8aea49fae641d3274c6a9a138b14
+  Tutorial: 2e0be41a5d2281dbf317d1d050de2b91898b047b
 
 PODFILE CHECKSUM: ce4e1cab9a6186a93ddb140155bfdf9c7e7b4040
 
