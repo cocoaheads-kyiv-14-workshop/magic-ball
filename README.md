@@ -1,6 +1,13 @@
 # 🔮 magic-ball
 Main project
 
+## Environment
+
+- Xcode 10.0
+- CocoaPods 1.5.3
+- Fastlane 2.100
+- Slather 2.4.6
+
 ## History
 
 ### [ 1.0 ](../../releases/1.0)
@@ -18,8 +25,6 @@ Main project
 - Integrated Tutorial into MagicBall (see *Podfile*)
 - Fixed Xcode 10 issue with not compiling new changes from local pods
 - As a result, we are able to develop separate interdependent modules in a single repo using [CocoaPods](https://cocoapods.org)
-
----
 
 We now need to extract local pods into private repos:
 
@@ -71,3 +76,26 @@ Git submodules? Another pod? :) [Fastlane import](https://docs.fastlane.tools/ad
 ### [ 1.5 ](../../releases/1.5)
 
 - Introduced [Fastlane](https://fastlane.tools) and shared it between private pods
+
+---
+
+## Testing
+
+In order to cover whole development flow, I really want to touch testing a bit.
+
+### [ RandomGenerator 0.1.3 ](https://github.com/cocoaheads-kyiv-14-workshop/random-generator/releases/0.1.3), [ Tutorial 0.1.2 ](https://github.com/cocoaheads-kyiv-14-workshop/tutorial/releases/0.1.2)
+
+- Setup *Scanfile*s to automate testing with Fastlane (see *fastlane/Scanfile*)
+- Setup private pod examples to gather coverage data
+- Setup [Slather](https://github.com/SlatherOrg/slather) to format coverage data for reports on CI
+
+### [ 1.6 ](../../releases/1.6)
+
+- Setup testing and coverage in private pods
+
+---
+
+## Summary
+
+As a result of this workshop we were able to create iOS project with some parts of its functionality split into modules using [CocoaPods](https://cocoapods.org). First, we were developing modules in local pods. However later we extracted them in private pods and started managing our own specs repo. We solved issue with sharing automation scripts between private pods using [Fastlane](https://docs.fastlane.tools). And we setup testing and coverage using [Fastlane Scan](https://docs.fastlane.tools/actions/scan/) and [Slather](https://github.com/SlatherOrg/slather).
+
