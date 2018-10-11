@@ -99,3 +99,11 @@ In order to cover whole development flow, I really want to touch testing a bit.
 
 As a result of this workshop we were able to create iOS project with some parts of its functionality split into modules using [CocoaPods](https://cocoapods.org). First, we were developing modules in local pods. However later we extracted them in private pods and started managing our own specs repo. We solved issue with sharing automation scripts between private pods using [Fastlane](https://docs.fastlane.tools). And we setup testing and coverage using [Fastlane Scan](https://docs.fastlane.tools/actions/scan/) and [Slather](https://github.com/SlatherOrg/slather).
 
+---
+
+## Tips & Tricks
+
+- Set optimization to None when you want to debug Pod
+- `pod update YourPod --no-repo-update` when you want to force update pod without loooong repo update (helps to quickly update pod locally)
+- Include private pod as a local pod (using *path* key and relative or absolute path to it in Podfile) if you need to hot-patch or play around with it, but want to save changes
+
